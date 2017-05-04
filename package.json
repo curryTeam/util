@@ -1,0 +1,27 @@
+{
+  "name": "curry_utility",
+  "version": "0.0.1",
+  "description": "utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "publishpatch": "git add --all; git commit -m 'c'; npm version patch; git push origin HEAD:master; npm publish --registry='https://registry.npmjs.org'; cnpm sync gm-util; npm version;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curryTeam/util.git"
+  },
+  "author": "curryTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curryTeam/util/issues"
+  },
+  "homepage": "https://github.com/curryTeam/util#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
