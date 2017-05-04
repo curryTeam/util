@@ -1,4 +1,4 @@
 (() => {
     const name = "curry";
-    console.log(name);
+    const version = '0.0.1';
 })()
