@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
-    "publishpatch": "git add --all; git commit -m 'c'; npm version patch; git push origin HEAD:master; npm publish --registry='https://registry.npmjs.org'; cnpm sync gm-util; npm version;"
+    "publishpatch": "git add --all; git commit -m 'c'; npm version patch; git push origin HEAD:master; npm publish --registry='https://registry.npmjs.org'; npm version;"
   },
   "repository": {
     "type": "git",
