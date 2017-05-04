@@ -1,6 +1,6 @@
 {
   "name": "curry_utility",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "utility",
   "main": "index.js",
   "scripts": {
